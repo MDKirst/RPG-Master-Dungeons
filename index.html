@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>RPG Zoeiro - Escolhas do Jogador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ascii">
+    ⠀⠀⠀⠀⢀⣀⣤⣤⣤⣤⣄⡀⠀⠀⠀⠀<br>
+    ⠀⢀⣤⣾⣿⣾⣿⣿⣿⣿⣿⣿⣷⣄⠀⠀<br>
+    ⢠⣾⣿⢛⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀<br>
+    ⣾⣯⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧<br>
+    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿<br>
+    ⣿⡿⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠻⢿⡵<br>
+    ⢸⡇⠀⠀⠉⠛⠛⣿⣿⠛⠛⠉⠀⠀⣿⡇<br>
+    ⢸⣿⣀⠀⢀⣠⣴⡇⠹⣦⣄⡀⠀⣠⣿⡇<br>
+    ⠈⠻⠿⠿⣟⣿⣿⣦⣤⣼⣿⣿⠿⠿⠟⠀<br>
+    ⠀⠀⠀⠀⠸⡿⣿⣿⢿⡿⢿⠇⠀⠀⠀⠀<br>
+  </div>
+  <h1>DUNGEONS & DECISIONS - RPG Zoeiro</h1>
+  <button onclick="startGame()">🎲 Começar Jogo</button>
+  <div class="log" id="log"></div>
+  <div id="acoes" style="display:none;">
+    <h3>Escolha sua ação:</h3>
+    <div id="opcoes-ataque"></div>
+    <div id="opcoes-defesa"></div>
+    <div id="opcoes-fuga"></div>
+  </div>
+  <div class="ranking" id="ranking">
+    <h2>🏅 Ranking dos Heróis</h2>
+    <ol id="ranking-list"></ol>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
